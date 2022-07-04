@@ -28,17 +28,17 @@ function inserirResposta(){
     porcentagem = ((acertos*100)/84).toFixed(1)
 
     if (porcentagem < 40.0){
-        result_text = "Você obteve "+porcentagem+"% de probabilidade de ter ansiedade. Você obteve "+acertos+" pontos, sendo 63 a quantidade máxima nesse teste. Seu grau de ansiedade é leve, caso tenha."
+        result_text = "Você obteve "+porcentagem+"% de probabilidade de ter ansiedade. Você obteve "+acertos+" pontos, sendo 84 a quantidade máxima nesse teste. Seu grau de ansiedade é leve, caso tenha."
         result_icon = "success"
     }
 
     if (porcentagem >= 40.0 && porcentagem < 65.0){
-        result_text = "Você obteve "+porcentagem+"% de probabilidade de ter ansiedade. Você obteve "+acertos+" pontos, sendo 63 a quantidade máxima nesse teste. Seu grau de ansiedade é moderado !"
+        result_text = "Você obteve "+porcentagem+"% de probabilidade de ter ansiedade. Você obteve "+acertos+" pontos, sendo 84 a quantidade máxima nesse teste. Seu grau de ansiedade é moderado !"
         result_icon = "info"
     }
 
     if (porcentagem >=  65.0){
-        result_text = "Você obteve "+porcentagem+"% de probabilidade de ter ansiedade. Você obteve "+acertos+" pontos, sendo 63 a quantidade máxima nesse teste. Seu grau de ansiedade é alto !!"
+        result_text = "Você obteve "+porcentagem+"% de probabilidade de ter ansiedade. Você obteve "+acertos+" pontos, sendo 84 a quantidade máxima nesse teste. Seu grau de ansiedade é alto !!"
         result_icon = "error"
     }
 
