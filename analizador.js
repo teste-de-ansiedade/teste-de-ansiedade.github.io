@@ -25,22 +25,23 @@ function inserirResposta(){
     var q21 = document.getElementById("q21").value;
 
     acertos = parseInt(q1)+parseInt(q2)+parseInt(q3)+parseInt(q4)+parseInt(q5)+parseInt(q6)+parseInt(q7)+parseInt(q8)+parseInt(q9)+parseInt(q10)+parseInt(q11)+parseInt(q12)+parseInt(q13)+parseInt(q14)+parseInt(q15)+parseInt(q16)+parseInt(q17)+parseInt(q18)+parseInt(q19)+parseInt(q20)+parseInt(q21)
-    porcentagem = ((acertos*100)/84).toFixed(1)
+    porcentagem = ((acertos*100)/63).toFixed(1)
 
     if (porcentagem < 40.0){
-        result_text = "Você obteve "+porcentagem+"% de probabilidade de ter ansiedade. Você obteve "+acertos+" pontos, sendo 84 a quantidade máxima nesse teste. Seu grau de ansiedade é leve, caso tenha."
+        result_text = "Você obteve "+porcentagem+"% de probabilidade de ter ansiedade. Você obteve "+acertos+" pontos, sendo 63 a quantidade máxima nesse teste. Seu grau de ansiedade é leve, caso tenha."
         result_icon = "success"
     }
 
     if (porcentagem >= 40.0 && porcentagem < 65.0){
-        result_text = "Você obteve "+porcentagem+"% de probabilidade de ter ansiedade. Você obteve "+acertos+" pontos, sendo 84 a quantidade máxima nesse teste. Seu grau de ansiedade é moderado !"
+        result_text = "Você obteve "+porcentagem+"% de probabilidade de ter ansiedade. Você obteve "+acertos+" pontos, sendo 63 a quantidade máxima nesse teste. Seu grau de ansiedade é moderado !"
         result_icon = "info"
     }
 
     if (porcentagem >=  65.0){
-        result_text = "Você obteve "+porcentagem+"% de probabilidade de ter ansiedade. Você obteve "+acertos+" pontos, sendo 84 a quantidade máxima nesse teste. Seu grau de ansiedade é alto !!"
+        result_text = "Você obteve "+porcentagem+"% de probabilidade de ter ansiedade. Você obteve "+acertos+" pontos, sendo 63 a quantidade máxima nesse teste. Seu grau de ansiedade é alto !!"
         result_icon = "warning"
     }
+
 
     const swalWithBootstrapButtons = Swal.mixin({
       customClass: {
@@ -51,7 +52,7 @@ function inserirResposta(){
     })
 
     swalWithBootstrapButtons.fire({
-      title: porcentagem+"% - "+acertos+"/84",
+      title: porcentagem+"% - "+acertos+"/63",
       text: result_text,
       icon: result_icon,
       showCancelButton: true,
