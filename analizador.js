@@ -42,8 +42,6 @@ function inserirResposta(){
         result_icon = "warning"
     }
 
-    localStorage.setItem("username", "John");
-
     const swalWithBootstrapButtons = Swal.mixin({
       customClass: {
         confirmButton: 'btn btn-success',
