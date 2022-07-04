@@ -7,7 +7,7 @@
 }
 h1{
     text-align: center;
-    color: rgb(100, 100, 100);
+    color: rgb(220, 220, 220);
     margin-bottom: 100px;
 }
 input{
@@ -52,7 +52,6 @@ button:hover{
     margin-left: 30px;
 }
 
-
 body {
     font: normal 15pt arial;
 }
@@ -61,7 +60,8 @@ header {
     text-align: center;
 }
 section {
-    background: rgb(100, 100, 100);
+    background: #3695ff;
+/*    background: rgb(170, 170, 170);*/
     border-radius: 20px;
     padding: 12px;
     width: 90%;
@@ -69,7 +69,7 @@ section {
     box-shadow: 3px 3px 10px rgba(0,0,0,0.363);
 }
 select {
-    background: rgb(170, 170, 170);
+    background: rgb(220, 220, 220);
     border-radius: 20px;
     padding: 12px;
     width: 90%;
