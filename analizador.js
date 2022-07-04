@@ -39,7 +39,7 @@ function inserirResposta(){
 
     if (porcentagem >=  65.0){
         result_text = "Você obteve "+porcentagem+"% de probabilidade de ter ansiedade. Você obteve "+acertos+" pontos, sendo 84 a quantidade máxima nesse teste. Seu grau de ansiedade é alto !!"
-        result_icon = "error"
+        result_icon = "warning"
     }
 
     localStorage.setItem("username", "John");
