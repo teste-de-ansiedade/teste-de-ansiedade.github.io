@@ -51,7 +51,7 @@ function inserirResposta(){
     })
 
     swalWithBootstrapButtons.fire({
-      title: porcentagem+"% - "+acertos+"/84,
+      title: porcentagem+"% - "+acertos+"/84",
       text: result_text,
       icon: result_icon,
       showCancelButton: true,
