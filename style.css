@@ -1,18 +1,7 @@
-.container{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 50px;
-    align-items: center;
-}
 h1{
     text-align: center;
     color: rgb(220, 220, 220);
     margin-bottom: 100px;
-}
-input{
-    border: solid 1px cadetblue;
-    padding: 8px 20px;
 }
 button{
     padding: 12px 20px;
@@ -20,10 +9,7 @@ button{
     color: white;
     border: none;
 }
-button:hover{
-    background-color: teal;
-}
-.botao{
+.selecionar{
     margin-left: 10px;
     border-radius: 5px;
     font-weight: bold;
@@ -32,24 +18,6 @@ button:hover{
     margin-left: 10px;
     margin-right: 10px;
     font-weight: bold;
-}
-#result{
-    font-weight: bold;
-    color: grey;
-    font-size: 20px;
-
-}
-#respostaAluno{
-    font-weight: bold;
-    color: green;
-    font-size: 20px;
-    margin-left: 30px;
-}
-#respostaFinal{
-    font-weight: bold;
-    color: grey;
-    font-size: 20px;
-    margin-left: 30px;
 }
 
 body {
@@ -61,25 +29,16 @@ header {
 }
 section {
     background: #3695ff;
-/*    background: rgb(170, 170, 170);*/
     border-radius: 20px;
-    padding: 12px;
+    padding: 13px;
     width: 90%;
     margin: auto;
-    box-shadow: 3px 3px 10px rgba(0,0,0,0.363);
 }
 select {
     background: rgb(220, 220, 220);
     border-radius: 20px;
     padding: 12px;
-    width: 90%;
+    width: 100%;
     margin: auto;
-    box-shadow: 3px 3px 10px rgba(0,0,0,0.363);
+    box-shadow:4px 4px 9px rgba(0,0,0,0.363);
 }
-
-footer {
-    color: white;
-    text-align: center;
-    font-style: italic;
-}
-
